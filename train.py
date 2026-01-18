@@ -11,8 +11,7 @@ from tqdm import tqdm
 from config import CFG
 from model import BiomassModel, biomass_loss
 from metric import weighted_r2_score_global
-scaler = torch.cuda.amp.GradScaler(enabled=torch.cuda.is_available())
-
+scaler = torch.amp.GradScaler(enabled=torch.cuda.is_available())
 @torch.no_grad()
 def valid_epoch(eval_model, loader, device):
     eval_model.eval()
