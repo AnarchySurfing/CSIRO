@@ -1,0 +1,29 @@
+# Data
+/data/*
+!/data/README.md
+
+# Outputs
+/outputs/*
+!/outputs/README.md
+
+# Models
+/models/*
+!/models/README.md
+
+# Notebooks checkpoint
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode
